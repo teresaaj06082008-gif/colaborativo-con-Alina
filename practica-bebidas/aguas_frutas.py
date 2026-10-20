@@ -11,4 +11,21 @@ print("3.Agua de horchata - 35")
 opcion = int(input("Elige una opcion del menu:"))
 cantidad = int(input("cuantos litros quieres?"))
 
-
+if opcion == 1:
+    bebidas = 'agua de mango'
+    precio = 40
+elif opcion == 2:
+    bebidas = 'agua de jamaica'
+    precio = 45
+elif opcion == 3:
+    bebidas = 'agua de horchata'
+    precio = 35
+else:
+    bebidas = 'No existe bebida'
+    precio = 0
+if precio > 0:
+    total = precio * cantidad
+    print(f"{cantidad} de {bebidas}")
+    print(f"Total a pagar $:{total}")
+else:
+    print("No existe bebida")
