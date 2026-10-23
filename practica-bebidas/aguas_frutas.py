@@ -29,3 +29,4 @@ if precio > 0:
     print(f"Total a pagar $:{total}")
 else:
     print("No existe bebida")
+    print("Holas wenas wenas")
