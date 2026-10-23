@@ -30,3 +30,5 @@ if precio > 0:
 else:
     print("No existe bebida")
     print("Holas wenas wenas")
+else:
+    print("No hay agua")
