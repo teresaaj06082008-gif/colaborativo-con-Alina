@@ -31,3 +31,4 @@ else:
     print("No existe bebida")
 else:
     print("No hay agua")
+    print("Holas wenas wenas")
